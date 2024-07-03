@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cw1
+
+my:
+  custom:
+    property: 'Hello from application properties'
+
+default:
+  value:
+    if:
+      empty: 'When this is empty, this value will be used'
